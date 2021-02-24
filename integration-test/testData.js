@@ -1,5 +1,5 @@
 import config from 'config';
-import { shaHash } from 'zkp-utils';
+import { shaHash } from '@eyblockchain/zkp-utils';
 import { GN } from 'general-number';
 
 const LEAF_HASHLENGTH = config.get('LEAF_HASHLENGTH');

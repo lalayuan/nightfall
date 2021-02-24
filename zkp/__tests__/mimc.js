@@ -1,4 +1,4 @@
-import { mimcHash, ensure0x } from 'zkp-utils';
+import { mimcHash, ensure0x } from '@eyblockchain/zkp-utils';
 import { GN } from 'general-number';
 
 import {

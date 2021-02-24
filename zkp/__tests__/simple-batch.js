@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved */
 
 import { erc20 } from '@eyblockchain/nightlite';
-import { shaHash, randomHex } from 'zkp-utils';
+import { shaHash, randomHex } from '@eyblockchain/zkp-utils';
 import { GN } from 'general-number';
 
 import Web3 from '../src/web3';

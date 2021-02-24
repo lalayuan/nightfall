@@ -1,5 +1,7 @@
 FROM node:14.15
 
+ARG NPM_TOKEN
+
 WORKDIR /app
 
 # Install mongodb
@@ -8,8 +10,9 @@ RUN echo "deb http://repo.mongodb.org/apt/debian stretch/mongodb-org/4.2 main" |
 RUN apt-get update
 RUN apt-get install -y mongodb-org-shell=4.2.10
 
-COPY ./package.json ./package-lock.json ./
+COPY ./package.json ./.npmrc ./package-lock.json ./
 RUN npm ci
+RUN rm -f .npmrc
 
 
 EXPOSE 80
