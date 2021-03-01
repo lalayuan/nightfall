@@ -12,7 +12,7 @@
     "setup-all-mimc": "yes | NODE_ENV=setup HASH_TYPE=mimc babel-node code/index.js",
     "setup-all-rc": "yes | NODE_ENV=setup COMPLIANCE=true babel-node code/index.js",
     "start": "nodemon --ignore stats-config/ --ignore code/ --exec babel-node ./src/index.js",
-    "test": "jest --verbose --runInBand --forceExit ./__tests__/*.js"
+    "test": "jest --verbose --runInBand --forceExit ./__tests__/poseidon.js"
   },
   "contributors": [
     "Chaitanya Konda <CKonda@uk.ey.com>",

@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  truffle-nightlite:
+    volumes:
+      - ./truffle-docker-entrypoint.sh:/usr/local/bin/docker-entrypoint.sh
+      - ./zkp/node_modules/@eyblockchain/nightlite/contracts/poseidon/Poseidon.sol:/truffle/contracts/Poseidon.sol
+      - ./zkp/node_modules/@eyblockchain/nightlite/contracts/poseidon/MerkleTree.sol:/truffle/contracts/MerkleTree.sol
