@@ -2,7 +2,7 @@
 
 import { erc20 } from '@eyblockchain/nightlite';
 import { shaHash, randomHex } from '@eyblockchain/zkp-utils';
-import { GN } from 'general-number';
+import { GN } from '@eyblockchain/general-number';
 
 import Web3 from '../src/web3';
 import controller from '../src/f-token-controller';
