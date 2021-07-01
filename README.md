@@ -1,3 +1,5 @@
+**Note that Nightfall is no longer being updated.  Please see [Nightfall_3](https://github.com/EYBlockchain/nightfall_3) instead**
+
 # Nightfall
 
 Nightfall integrates a set of smart contracts and microservices, and the ZoKrates zk-snark toolkit,
